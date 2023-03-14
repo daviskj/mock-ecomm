@@ -3,10 +3,11 @@ import { PRODUCTS } from '../../products'
 import { ShopContext } from '../../context/shop-context'
 import CartItem from './cart-item'
 import './cart.css'
-
+import {Link} from 'react-router-dom'
 
 const Cart = () => {
-  const { cartItems } = useContext(ShopContext);
+  const { cartItems, getTotalCartAmount } = useContext(ShopContext);
+  const totalAmount = getTotalCartAmount();
 
   return (
     <div className='cart'>
@@ -20,6 +21,14 @@ const Cart = () => {
             }
         })}
       </div>
+        <div className='checkout'>
+          <p> Subtotal: ${totalAmount} </p>
+          <Link to='/'>
+          <button> Continue Shopping</button>
+          </Link>
+          <button> Checkout </button>
+        </div>
+
     </div>
   )
 }

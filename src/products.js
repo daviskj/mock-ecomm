@@ -12,25 +12,25 @@ export const PRODUCTS = [
     {
       id: 1,
       productName: "Sword",
-      price: 200.0,
+      price: 199.97,
       productImage: product1,
     },
     {
       id: 2,
       productName: "NVIDIA GeForce RTX 3090",
-      price: 1500.0,
+      price: 1498.99,
       productImage: product2,
     },
     {
       id: 3,
       productName: "Cannon M50 Camera",
-      price: 699.0,
+      price: 699.00,
       productImage: product3,
     },
     {
       id: 4,
       productName: "Nike Jacket",
-      price: 228.0,
+      price: 228.95,
       productImage: product4,
     },
     {
