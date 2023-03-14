@@ -1,3 +1,7 @@
+Front-end of a mock e-commerce website with product listing, add to/remove from cart functionality, checkout page with price of items in cart.\
+Created using React.\
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
